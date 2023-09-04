@@ -1,4 +1,5 @@
 # Etch-a-Sketch
+
 Drawing application
 
-Project from the odin project
+Project from The Odin Project
