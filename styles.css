@@ -1,34 +1,35 @@
 body{
     height: 100vh;
-    margin: 30;
+    /* margin: 30; */
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: #EDEDED;
     font-family: 'Amatic SC', cursive;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 6.5em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
     width: 600px;
     height: 600px;
     background: white;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;}
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
 .pixel{
-    width: 37.5px;
-    height: 37.5px;
+
 }
 
 .hover{
-    background-color: coral;
+    background-color: black;
 }
 
 /*--Button Styles--*/
