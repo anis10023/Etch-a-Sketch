@@ -33,7 +33,7 @@ refreshBtn.addEventListener("click", (e) => {
   }
 
   for (i = 0; i < newGrid * newGrid; i++) {
-    let pixelSize = 600 / newGrid - 2;
+    let pixelSize = 600 / newGrid;
     pixels[i] = document.createElement("div");
     pixels[i].classList.add("pixel");
     pixels[i].style.width = pixelSize + "px";
